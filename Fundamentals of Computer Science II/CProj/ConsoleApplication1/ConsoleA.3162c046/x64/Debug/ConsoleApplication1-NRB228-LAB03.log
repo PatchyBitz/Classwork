@@ -1,0 +1,4 @@
+﻿  PaperFortune.cpp
+C:\Users\yfan1\OneDrive - Montana Tech\Spring 2025\Intro to Computer Science II\CProj\ConsoleApplication1\PaperFortune.cpp(64,25): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\yfan1\OneDrive - Montana Tech\Spring 2025\Intro to Computer Science II\CProj\ConsoleApplication1\PaperFortune.cpp(44,1): warning C4715: 'fortune': not all control paths return a value
+  ConsoleApplication1.vcxproj -> C:\Users\yfan1\OneDrive - Montana Tech\Spring 2025\Intro to Computer Science II\CProj\ConsoleApplication1\x64\Debug\ConsoleApplication1.exe

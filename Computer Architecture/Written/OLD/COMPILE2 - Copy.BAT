@@ -1,0 +1,1 @@
+D:\nasm\nasm -o scratch.com -f bin scratch.asm

@@ -1,0 +1,191 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\yensh\\OneDrive - Montana Tech\\Spring 2025\\Intro to Computer Science II\\CProj\\ConsoleApplication1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\yensh\\OneDrive - Montana Tech\\Spring 2025\\Intro to Computer Science II\\CProj\\ConsoleApplication1\\ZombieSim2.0.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ZombieSim2.0.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\yensh\\OneDrive - Montana Tech\\Spring 2025\\Intro to Computer Science II\\CProj\\ConsoleApplication1\\ZombSim1.0.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ZombSim1.0.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3162C046-DEAD-48D1-94B7-BC96748582D6}|ConsoleApplication1.vcxproj|C:\\Users\\yensh\\OneDrive - Montana Tech\\Spring 2025\\Intro to Computer Science II\\CProj\\ConsoleApplication1\\Tester.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3162C046-DEAD-48D1-94B7-BC96748582D6}|ConsoleApplication1.vcxproj|solutionrelative:Tester.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3162C046-DEAD-48D1-94B7-BC96748582D6}|ConsoleApplication1.vcxproj|C:\\Users\\yensh\\OneDrive - Montana Tech\\Spring 2025\\Intro to Computer Science II\\CProj\\ConsoleApplication1\\Humies.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3162C046-DEAD-48D1-94B7-BC96748582D6}|ConsoleApplication1.vcxproj|solutionrelative:Humies.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3162C046-DEAD-48D1-94B7-BC96748582D6}|ConsoleApplication1.vcxproj|C:\\Users\\yensh\\OneDrive - Montana Tech\\Spring 2025\\Intro to Computer Science II\\CProj\\ConsoleApplication1\\WorldTile.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3162C046-DEAD-48D1-94B7-BC96748582D6}|ConsoleApplication1.vcxproj|solutionrelative:WorldTile.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3162C046-DEAD-48D1-94B7-BC96748582D6}|ConsoleApplication1.vcxproj|C:\\Users\\yensh\\OneDrive - Montana Tech\\Spring 2025\\Intro to Computer Science II\\CProj\\ConsoleApplication1\\Zombs.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3162C046-DEAD-48D1-94B7-BC96748582D6}|ConsoleApplication1.vcxproj|solutionrelative:Zombs.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3162C046-DEAD-48D1-94B7-BC96748582D6}|ConsoleApplication1.vcxproj|C:\\Users\\yensh\\OneDrive - Montana Tech\\Spring 2025\\Intro to Computer Science II\\CProj\\ConsoleApplication1\\WorldTile.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3162C046-DEAD-48D1-94B7-BC96748582D6}|ConsoleApplication1.vcxproj|solutionrelative:WorldTile.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3162C046-DEAD-48D1-94B7-BC96748582D6}|ConsoleApplication1.vcxproj|C:\\Users\\yensh\\OneDrive - Montana Tech\\Spring 2025\\Intro to Computer Science II\\CProj\\ConsoleApplication1\\Zombs.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3162C046-DEAD-48D1-94B7-BC96748582D6}|ConsoleApplication1.vcxproj|solutionrelative:Zombs.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3162C046-DEAD-48D1-94B7-BC96748582D6}|ConsoleApplication1.vcxproj|C:\\Users\\yensh\\OneDrive - Montana Tech\\Spring 2025\\Intro to Computer Science II\\CProj\\ConsoleApplication1\\Humies.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3162C046-DEAD-48D1-94B7-BC96748582D6}|ConsoleApplication1.vcxproj|solutionrelative:Humies.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\yensh\\OneDrive - Montana Tech\\Spring 2025\\Intro to Computer Science II\\CProj\\ConsoleApplication1\\people.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:people.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Humies.cpp",
+              "DocumentMoniker": "C:\\Users\\yensh\\OneDrive - Montana Tech\\Spring 2025\\Intro to Computer Science II\\CProj\\ConsoleApplication1\\Humies.cpp",
+              "RelativeDocumentMoniker": "Humies.cpp",
+              "ToolTip": "C:\\Users\\yensh\\OneDrive - Montana Tech\\Spring 2025\\Intro to Computer Science II\\CProj\\ConsoleApplication1\\Humies.cpp",
+              "RelativeToolTip": "Humies.cpp",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABkAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-12T18:14:21.897Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ZombSim1.0.cpp",
+              "DocumentMoniker": "C:\\Users\\yensh\\OneDrive - Montana Tech\\Spring 2025\\Intro to Computer Science II\\CProj\\ConsoleApplication1\\ZombSim1.0.cpp",
+              "RelativeDocumentMoniker": "ZombSim1.0.cpp",
+              "ToolTip": "C:\\Users\\yensh\\OneDrive - Montana Tech\\Spring 2025\\Intro to Computer Science II\\CProj\\ConsoleApplication1\\ZombSim1.0.cpp",
+              "RelativeToolTip": "ZombSim1.0.cpp",
+              "ViewState": "AgIAAH0AAAAAAAAAAAAAAJgAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-19T06:19:40.448Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ZombieSim2.0.cpp",
+              "DocumentMoniker": "C:\\Users\\yensh\\OneDrive - Montana Tech\\Spring 2025\\Intro to Computer Science II\\CProj\\ConsoleApplication1\\ZombieSim2.0.cpp",
+              "RelativeDocumentMoniker": "ZombieSim2.0.cpp",
+              "ToolTip": "C:\\Users\\yensh\\OneDrive - Montana Tech\\Spring 2025\\Intro to Computer Science II\\CProj\\ConsoleApplication1\\ZombieSim2.0.cpp",
+              "RelativeToolTip": "ZombieSim2.0.cpp",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAHoAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-19T03:03:08.495Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Tester.cpp",
+              "DocumentMoniker": "C:\\Users\\yensh\\OneDrive - Montana Tech\\Spring 2025\\Intro to Computer Science II\\CProj\\ConsoleApplication1\\Tester.cpp",
+              "RelativeDocumentMoniker": "Tester.cpp",
+              "ToolTip": "C:\\Users\\yensh\\OneDrive - Montana Tech\\Spring 2025\\Intro to Computer Science II\\CProj\\ConsoleApplication1\\Tester.cpp",
+              "RelativeToolTip": "Tester.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-19T00:53:45.517Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "WorldTile.cpp",
+              "DocumentMoniker": "C:\\Users\\yensh\\OneDrive - Montana Tech\\Spring 2025\\Intro to Computer Science II\\CProj\\ConsoleApplication1\\WorldTile.cpp",
+              "RelativeDocumentMoniker": "WorldTile.cpp",
+              "ToolTip": "C:\\Users\\yensh\\OneDrive - Montana Tech\\Spring 2025\\Intro to Computer Science II\\CProj\\ConsoleApplication1\\WorldTile.cpp",
+              "RelativeToolTip": "WorldTile.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-18T22:51:53.164Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "people.h",
+              "DocumentMoniker": "C:\\Users\\yensh\\OneDrive - Montana Tech\\Spring 2025\\Intro to Computer Science II\\CProj\\ConsoleApplication1\\people.h",
+              "RelativeDocumentMoniker": "people.h",
+              "ToolTip": "C:\\Users\\yensh\\OneDrive - Montana Tech\\Spring 2025\\Intro to Computer Science II\\CProj\\ConsoleApplication1\\people.h",
+              "RelativeToolTip": "people.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-03-18T23:36:34.164Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "WorldTile.h",
+              "DocumentMoniker": "C:\\Users\\yensh\\OneDrive - Montana Tech\\Spring 2025\\Intro to Computer Science II\\CProj\\ConsoleApplication1\\WorldTile.h",
+              "RelativeDocumentMoniker": "WorldTile.h",
+              "ToolTip": "C:\\Users\\yensh\\OneDrive - Montana Tech\\Spring 2025\\Intro to Computer Science II\\CProj\\ConsoleApplication1\\WorldTile.h",
+              "RelativeToolTip": "WorldTile.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-03-18T22:50:36.802Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Zombs.cpp",
+              "DocumentMoniker": "C:\\Users\\yensh\\OneDrive - Montana Tech\\Spring 2025\\Intro to Computer Science II\\CProj\\ConsoleApplication1\\Zombs.cpp",
+              "RelativeDocumentMoniker": "Zombs.cpp",
+              "ToolTip": "C:\\Users\\yensh\\OneDrive - Montana Tech\\Spring 2025\\Intro to Computer Science II\\CProj\\ConsoleApplication1\\Zombs.cpp",
+              "RelativeToolTip": "Zombs.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-18T21:49:35.696Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Humies.h",
+              "DocumentMoniker": "C:\\Users\\yensh\\OneDrive - Montana Tech\\Spring 2025\\Intro to Computer Science II\\CProj\\ConsoleApplication1\\Humies.h",
+              "RelativeDocumentMoniker": "Humies.h",
+              "ToolTip": "C:\\Users\\yensh\\OneDrive - Montana Tech\\Spring 2025\\Intro to Computer Science II\\CProj\\ConsoleApplication1\\Humies.h",
+              "RelativeToolTip": "Humies.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-03-12T18:14:19.6Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Zombs.h",
+              "DocumentMoniker": "C:\\Users\\yensh\\OneDrive - Montana Tech\\Spring 2025\\Intro to Computer Science II\\CProj\\ConsoleApplication1\\Zombs.h",
+              "RelativeDocumentMoniker": "Zombs.h",
+              "ToolTip": "C:\\Users\\yensh\\OneDrive - Montana Tech\\Spring 2025\\Intro to Computer Science II\\CProj\\ConsoleApplication1\\Zombs.h",
+              "RelativeToolTip": "Zombs.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-03-12T18:14:10.936Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

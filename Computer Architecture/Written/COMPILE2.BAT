@@ -1,0 +1,1 @@
+D:\nasm\nasm -o class24.com -f bin class24.asm

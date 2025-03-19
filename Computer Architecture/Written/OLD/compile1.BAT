@@ -1,0 +1,1 @@
+a:\nasm\nasm -o result1.com -f bin comp1.asm
