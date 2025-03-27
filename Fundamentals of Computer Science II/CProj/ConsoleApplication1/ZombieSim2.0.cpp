@@ -19,20 +19,20 @@ void printWorld(vector<vector<WorldTile*>>& world) {
 }
 
 
-vector<vector<WorldTile*>> initWorld(int x, int y) {
+vector<vector<WorldTile*>> initWorld(int xz, int yz,int hequip,int hskill) {
 
 	vector<vector<WorldTile*>> World1;
 
 	vector<WorldTile*> row;
-	for (int x = 0; x < 10; x++) {
-		Humies* newhuman = new Humies(2, 3);
+	for (int x = 0; x < xz; x++) {
+		Humies* newhuman = new Humies(hequip, hskill);
 		row.push_back(newhuman);
 	}
 
-	for (int y = 0; y < 10; y++) {
+	for (int y = 0; y < yz; y++) {
 		vector<WorldTile*> row;
-		for (int x = 0; x < 10; x++) {
-			Humies* newhuman = new Humies(2, 3);
+		for (int x = 0; x < xz; x++) {
+			Humies* newhuman = new Humies(hequip, hskill);
 			row.push_back(newhuman);
 		}
 		World1.push_back(row);
@@ -42,7 +42,7 @@ vector<vector<WorldTile*>> initWorld(int x, int y) {
 }
 
 int infectable(WorldTile*& infector, WorldTile*& infectee) {
-	if (infectee->infectable == 1 and infector->imminf > infectee->imminf) {
+	if (infectee->infectable == 0 and infector->imminf > infectee->imminf) {
 		return 1;
 	}
 	else {
@@ -51,51 +51,50 @@ int infectable(WorldTile*& infector, WorldTile*& infectee) {
 
 }
 
-void infect(int x, int y, vector<vector<WorldTile*>>& location) {
+void infect(int x, int y, vector<vector<WorldTile*>>& location,int zmuta,int zskill) {
 
-	if (x + 1 < location[y].size() and infectable(location[x][y], location[y][x + 1]) == 1) { //Right
+	if (x + 1 < location[y].size() and infectable(location[y][x], location[y][x + 1]) == 1) { //Right
 		delete location[y][x + 1];
-		location[y][x + 1] = new Zombs(3, 3);
+		location[y][x + 1] = new Zombs(zmuta, zskill);
 	}
-	if (x - 1 >= 0 and infectable(location[x][y], location[y][x - 1]) == 1) { //Left
+	if (x - 1 >= 0 and infectable(location[y][x], location[y][x - 1]) == 1) { //Left
 		delete location[y][x - 1];
-		location[y][x - 1] = new Zombs(3, 3);
+		location[y][x - 1] = new Zombs(zmuta, zskill);
 	}
 
-	if (y - 1 >= 0 and infectable(location[x][y], location[y - 1][x]) == 1) { //Up
+	if (y - 1 >= 0 and infectable(location[y][x], location[y - 1][x]) == 1) { //Up
 		delete location[y - 1][x];
-		location[y - 1][x] = new Zombs(3, 3);
+		location[y - 1][x] = new Zombs(zmuta, zskill);
 	}
 
-	if (y + 1 < location.size() and infectable(location[x][y], location[y + 1][x]) == 1) { //Down
+	if (y + 1 < location.size() and infectable(location[y][x], location[y + 1][x]) == 1) { //Down
 		delete location[y + 1][x];
-		location[y + 1][x] = new Zombs(3, 3);
+		location[y + 1][x] = new Zombs(zmuta, zskill);
 	}
 
-	if (y + 1 < location.size() and x - 1 >= 0 and infectable(location[x][y], location[y + 1][x - 1]) == 1) { //Bottom left
+	if (y + 1 < location.size() and x - 1 >= 0 and infectable(location[y][x], location[y + 1][x - 1]) == 1) { //Bottom left
 		delete location[y + 1][x - 1];
-		location[y + 1][x - 1] = new Zombs(3, 3);
+		location[y + 1][x - 1] = new Zombs(zmuta, zskill);
 	}
-	if (y - 1 < location.size() and x + 1 < location[y].size() and infectable(location[x][y], location[y - 1][x + 1]) == 1) { //Top right
+	if (y - 1 < location.size() and x + 1 < location[y].size() and infectable(location[y][x], location[y - 1][x + 1]) == 1) { //Top right
 		delete location[y - 1][x + 1];
-		location[y - 1][x + 1] = new Zombs(3, 3);
+		location[y - 1][x + 1] = new Zombs(zmuta, zskill);
 	}
-	if (y + 1 < location.size() and x - 1 >= 0 and infectable(location[x][y], location[y + 1][x - 1]) == 1) { //Top left
+	if (y + 1 < location.size() and x - 1 >= 0 and infectable(location[y][x], location[y + 1][x - 1]) == 1) { //Top left
 		delete location[y + 1][x - 1];
-		location[y + 1][x - 1] = new Zombs(3, 3);
+		location[y + 1][x - 1] = new Zombs(zmuta, zskill);
 	}
 
-	if (y + 1 < location.size() and x + 1 < location[y].size() and infectable(location[x][y], location[y + 1][x + 1]) == 1) { //Bottom right
+	if (y + 1 < location.size() and x + 1 < location[y].size() and infectable(location[y][x], location[y + 1][x + 1]) == 1) { //Bottom right
 		delete location[y + 1][x + 1];
-		location[y + 1][x + 1] = new Zombs(3, 3);
+		location[y + 1][x + 1] = new Zombs(zmuta, zskill);
 	}
 }
 
-
-void infectWorld(int Zzx, int Zzy, vector<vector<WorldTile*>>& world) {
+void infectWorld(int Zzx, int Zzy, vector<vector<WorldTile*>>& world,int max,int zmuta,int zskill) {
 	int test = 0;
 	delete world[Zzy - 1][Zzx - 1];
-	world[Zzy - 1][Zzx - 1] = new Zombs(3, 3); // Initial Zombie
+	world[Zzy - 1][Zzx - 1] = new Zombs(zmuta, zskill); // Initial Zombie
 	vector<int> zomblocations;
 	int humanstanding = 0;
 
@@ -116,16 +115,17 @@ void infectWorld(int Zzx, int Zzy, vector<vector<WorldTile*>>& world) {
 					//zomblocations.push_back(0);
 					zomblocations.push_back(i);
 				}
-				else if (world[i][0] == '.') {
+				else if (world[i][0] -> sprite == '.') {
 					humanstanding = 1;
 				}
 			}
 			for (int it = 0; it < zomblocations.size(); it += 1) {
-				infect(0, zomblocations[it], world);
+				infect(0, zomblocations[it], world,zmuta,zskill);
 			}
 			cout << "\n";
+			test++;
 
-		} while (humanstanding != 0);
+		} while (humanstanding != 0 and test <= max);
 
 
 	}
@@ -140,16 +140,17 @@ void infectWorld(int Zzx, int Zzy, vector<vector<WorldTile*>>& world) {
 					//zomblocations.push_back(0);
 					zomblocations.push_back(i);
 				}
-				else if (world[0][i] == '.') {
+				else if (world[0][i] ->infected == 0) {
 					humanstanding = 1;
 				}
 			}
 			for (int it = 0; it < zomblocations.size(); it += 1) {
-				infect(zomblocations[it], 0, world);
+				infect(zomblocations[it], 0, world, zmuta,zskill);
 			}
 			cout << "\n";
+			test++;
 
-		} while (humanstanding != 0);
+		} while (humanstanding != 0 and test <= max);
 	}
 	else { //General case for a square or rectangle.
 		do {   //Flow : Do loop - Iteration of the world. for loop 1 - scans the worlds for zombies and adds them to a list. for loop 2 - goes through zombie list and infects based on their location.
@@ -170,11 +171,11 @@ void infectWorld(int Zzx, int Zzy, vector<vector<WorldTile*>>& world) {
 			}
 
 			for (int it = 0; it < zomblocations.size(); it += 2) {
-				infect(zomblocations[it + 1], zomblocations[it], world);
+				infect(zomblocations[it + 1], zomblocations[it], world,zmuta,zskill);
 			}
 			cout << "\n";
 			test++;
-		} while (humanstanding != 0 and test <= 5);
+		} while (humanstanding != 0 and test <= max);
 		printWorld(world);
 	}
 }
@@ -184,10 +185,16 @@ int main(int argc, char* argv[]) {
 	int sizey = atoi(argv[2]);
 	int zZx = atoi(argv[3]);
 	int zZy = atoi(argv[4]);
+	int maxiter = 5; //Max world iterations.
+	int humanequipment = 3; // Amount of "boosts" that humans can get, random between 1-5
+	int humanskill = 1; // Base survivabilty without boosts
+	int zombmuta = 3; //Same as humanequipment but for zombies
+	int zombskill = 1; // Base infection without the boosts
 	vector<vector<WorldTile*>> World1;
-	World1 = initWorld(sizex, sizey);
+	World1 = initWorld(sizex, sizey,humanequipment,humanskill);
 	printWorld(World1);
-	infectWorld(zZx, zZy, World1);
+	infectWorld(zZx, zZy, World1,maxiter,zombmuta,zombskill);
+
 
 	// Zombs(x,y) x is the amount of mutations a zombie gets and y is their base power 
 	// Same with Humies(x,y) except x is equipment and y is their base survivability.
@@ -196,4 +203,3 @@ int main(int argc, char* argv[]) {
 	//Core is working, still needs tweaks to make it look more interesting. 
 }
 
-}
