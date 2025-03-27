@@ -1,3 +1,13 @@
+;Student: YenShae Fan
+;CSCI 361 Spring 2025
+;Assignment: Class24.asm - Towers of Hanoi Operations with cdecl and Stack Operations
+;Professor Jakub Pach
+
+;I acknowledge that I have worked on this assignment independently, except where explicitly noted and referenced. 
+;Any collaboration or use of external resources has been ;properly cited. I am fully aware of the consequences of academic 
+;dishonesty and agree to abide by the university's academic integrity policy. I understand the importance the consequences of plagiarism.
+
+
 org 100h
 	global _start
 	section .text
@@ -78,47 +88,16 @@ menu:
 		add sp, 8 ; 4 x 2B
 			
 
-		; push left_t
-		; call takeDisk 
-		; add sp, 2
-		; push ax ;Pushes return from disk for future assignments
 
-		; push txt   ; Testing code to see if I can pick up and set straight back down.
-		; push right_t	 + 1
-		; push center_t	 + 1
-		; push left_t	   + 1 ; From right to left
-		; call printT
-		; add sp, 8 ; 4 x 2B
-		
-		; ;mov dl,al
-		; ;mov ah, 2
-		; ;int 21h
-		
-		; pop ax
-		; push right_t
-		; push ax
-		; call putDisk
-		; add sp,4
-
-		; ; push left_t
-		; ; push ax
-		; ; call putDisk
-
-		; push txt
-		; push right_t	 + 1
-		; push center_t	 + 1
-		; push left_t	   + 1 ; From right to left
-		; call printT
-		; add sp, 8 ; 4 x 2B
 
 
 	mov ah,1
 	int 21h
-	cmp al,'1'
+		cmp al,'1'
 	je .left_t
-	cmp al,'2'
+		cmp al,'2'
 	je .mid_t
-	cmp al,'3'
+		cmp al,'3'
 	je .right_t
 	jmp .end
 		;jmp .pull
